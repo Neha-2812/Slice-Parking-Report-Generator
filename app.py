@@ -336,7 +336,7 @@ if generate_btn:
 
                 # Compute the tech-fee card value BEFORE building the HTML string
                 if parking_code in ("CP", "CPUpperLot"):
-                    tech_card_value = subtotal
+                    tech_card_value = 350
                 else:
                     tech_card_value = dock
 
